@@ -1,0 +1,258 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+.centered-heading {
+  text-align: center;
+  margin-top: 20px;
+  color:rgb(255, 255, 255);
+}
+.centered-heading-search {
+  text-align: center;
+  margin-top: 20px;
+  color:rgb(0, 0, 0);
+}
+
+.books-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.book {
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+  height: 500px;
+  background-color: rgb(255, 128, 0);
+}
+
+.books-section {
+  color: rgb(43, 127, 217); 
+}
+
+.book h3 {
+  margin-top: 10px;
+}
+
+.book-image {
+  max-width: 100%;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: right;
+}
+
+.nav-icon {
+  margin-left: 2%;
+  vertical-align: right;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+.search-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  max-height: 140px;
+}
+
+.search-table th {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  background-color: #f5f5f5;
+}
+
+.search-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.search-table th,
+.search-table td {
+  color: rgb(46, 139, 238); 
+}
+#author-search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#title-search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#keyword-search {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.books-section {
+  width: calc(70% - 20px);
+}
+
+.search-section {
+  width: calc(30% - 20px); 
+}
+
+.search-button{
+  text-align:left;
+}
+body {
+  font-family: Arial, sans-serif;
+  color:aliceblue;
+}
+.profile-photo {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.about-info {
+  margin: 20px;
+  color: rgb(255, 255, 255);
+}
+.skills {
+  margin-top: 10px;
+  color: rgb(0, 35, 101);
+}
+
+.contact-form {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgba(241, 150, 23, 0.8);
+  border: 1px solid #000000;
+  width: 500px;
+  height: 600px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+.form-row label {
+  width: 120px; 
+}
+
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.blog-thumbnail {
+  max-width: 300px; 
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  vertical-align:center ;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 200px; 
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.portfolio-links ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+.portfolio-links li {
+  margin: 10px 0;
+}
